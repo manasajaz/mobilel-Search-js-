@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="app.js" defer></script>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+        violet
+      );
+      margin: 0;
+      padding: 0;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    select {
+      padding: 10px;
+      font-size: 16px;
+      width: 50%;
+      border: 1px solid #ccc;
+      border: none;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+    #ModelSelect {
+      padding: 10px;
+      font-size: 16px;
+      width: 25%;
+      border: 1px solid black;
+      border: none;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <div>
+      <h1>Mobile Phone Search</h1>
+
+      <select name="" id="BrandSelect"></select>
+      <select name="" id="ModelSelect"></select>
+      <ul id="priceSelect"></ul>
+    </div>
+  </body>
+</html>
